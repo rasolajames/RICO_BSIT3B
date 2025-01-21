@@ -1,0 +1,44 @@
+/* Style for the header */
+header {
+    background-color: #df3d53;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style for the navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: #4caf50;
+}
+
+/* Style for the main content */
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Style for the footer */
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    color: #666;
+}
